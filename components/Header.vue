@@ -23,8 +23,8 @@ const localePath = useLocalePath()
         <li><NuxtLink :to="localePath('about-us')">{{ $t('header.aboutUs') }}</NuxtLink></li>
         <li><NuxtLink :to="localePath('contact-us')">{{ $t('header.contactUs') }}</NuxtLink></li>
 
-        <li><NuxtLinkLocale to='about'>{{ $t('header.aboutUs') }}</NuxtLinkLocale></li>
-        <li><NuxtLinkLocale to='contact'>{{ $t('header.contactUs') }}</NuxtLinkLocale></li>
+        <!-- <li><NuxtLinkLocale to='about-us'>{{ $t('header.aboutUs') }}</NuxtLinkLocale></li>
+        <li><NuxtLinkLocale to='contact-us'>{{ $t('header.contactUs') }}</NuxtLinkLocale></li> -->
       </ul>
     </div>
   </div>

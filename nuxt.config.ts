@@ -15,9 +15,13 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     customRoutes: 'config',
     pages: {
-      about: {
+      'about-us': {
         en: '/about-us',
         de: '/uber-uns'
+      },
+      'contact-us': {
+        en: '/contact-us',
+        de: '/kontaktiere-uns'
       }
     },
     locales: [
